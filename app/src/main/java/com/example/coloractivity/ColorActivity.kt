@@ -14,6 +14,7 @@ class ColorActivity : AppCompatActivity() {
         val listView = findViewById<ListView>(R.id.listView)
 
         val colors = arrayOf("Gray", "Magenta", "Yellow", "Red", "Purple")
+         //   "Green", "Blue", "Orange", "Black", "Light Gray")
 /*
         val adapter = ArrayAdapter(this
             , android.R.layout.simple_spinner_dropdown_item
