@@ -2,6 +2,9 @@
 This application uses a custom adapter. It will allow a user to select a color from a Spinner. Once selected, it sets the background of the activity’s layout to the 
 selected color.
 
+-App first opened, backround activity is white
+![alt text](https://user-images.githubusercontent.com/78163717/154148807-e62d5426-f88a-4e03-8aae-e756c01f2b2e.png)
+
 -App Working: Dropdown Menu Displayed
 ![alt text](https://user-images.githubusercontent.com/78163717/154147240-d0e8ce0e-f142-4f8a-a6f7-008b9bc7e2e7.png)
 
