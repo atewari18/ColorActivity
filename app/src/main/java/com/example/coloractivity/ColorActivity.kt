@@ -13,14 +13,14 @@ class ColorActivity : AppCompatActivity() {
         val spinner = findViewById<Spinner>(R.id.spinner)
         val listView = findViewById<ListView>(R.id.listView)
 
-        val colors = arrayOf("Gray", "Magenta", "Yellow", "Red", "Purple")
-         //   "Green", "Blue", "Orange", "Black", "Light Gray")
+        val colors = arrayOf("Gray", "Magenta", "Yellow", "Red", "Purple",
+          "Green", "Blue", "Maroon", "Aqua", "Lime")
 /*
         val adapter = ArrayAdapter(this
             , android.R.layout.simple_spinner_dropdown_item
             , colors)
- */
 
+*/
         val adapter = ColorAdapter(this, colors)
 
         spinner.adapter = adapter
